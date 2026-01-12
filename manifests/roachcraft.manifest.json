@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "project": "RoachCraft Launcher",
+  "minecraft": "1.20.1",
+  "loader": "fabric",
+  "branding": {
+    "name": "RoachCraft Launcher",
+    "vendor": "RoachCraft",
+    "accent_color": "#7BFF00"
+  },
+  "variants": {
+    "overlay": {
+      "resolution": 512
+    },
+    "monolith": {
+      "resolution": 512
+    },
+    "lite": {
+      "resolution": 256
+    },
+    "ultra": {
+      "resolution": 1024
+    }
+  },
+  "rules": {
+    "single_font_source": true,
+    "required_mods": [
+      "entity_texture_features",
+      "entity_model_features",
+      "continuity"
+    ],
+    "optional_mods": [
+      "iris",
+      "fancymenu",
+      "drippyloadingscreen"
+    ]
+  }
+}

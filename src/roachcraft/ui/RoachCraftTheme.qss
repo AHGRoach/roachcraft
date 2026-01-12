@@ -1,0 +1,6 @@
+
+/* RoachCraft Dark Theme */
+QWidget {
+    background-color: #121212;
+    color: #7BFF00;
+}
